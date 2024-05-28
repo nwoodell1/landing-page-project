@@ -35,3 +35,9 @@ a{
     text-decoration: none;
     color: white;
 }
+
+.heroandimage{
+    display: flex;
+    padding: 100px;
+    text-wrap: wrap;
+}
