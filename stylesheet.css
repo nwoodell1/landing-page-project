@@ -40,4 +40,12 @@ a{
     display: flex;
     padding: 100px;
     text-wrap: wrap;
+    border: solid 1px red;
+    flex-basis: 1;
+    gap: 300px;
+}
+
+.leftside{
+    border: solid 1px red;
+    
 }
