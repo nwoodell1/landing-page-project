@@ -40,12 +40,79 @@ a{
     display: flex;
     padding: 100px;
     text-wrap: wrap;
-    border: solid 1px red;
     flex-basis: 1;
     gap: 300px;
+    background-color: #1f2937;
 }
 
 .leftside{
-    border: solid 1px red;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
+
+.section1title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+    margin: 0;
+}
+
+.insetinfo{
+    color: white;
+    margin: 0;
+    margin: 5px, 0, 5px, 0
+}
+
+button.duck{
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+.header2{
+   text-align: center;
+   font-size: 36px;
+   color: #1f2937;
+   font-weight: bolder;
+}
+
+.picsandsubtext{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+.ddg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.yahoo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    width: 0;
+}
+
+.askjeeves{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.google{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
