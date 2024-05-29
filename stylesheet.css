@@ -80,39 +80,62 @@ button.duck{
 
 .picsandsubtext{
     display: flex;
-    justify-content: space-between;
-    padding: 30px;
+    justify-content: space-evenly;
+    padding: 30px, 40px, 30px, 40px
     gap: 10px;
     text-align: center;
-    flex: 1;
+    
 }
 
 .ddg{
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
+    width: 200px;
 }
 
 .yahoo{
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
-    width: 0;
+    width: 200px;
 }
 
 .askjeeves{
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
+    width: 200px;
 }
 
 .google{
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
+    width: 200px;
 }
 
+.section2{
+    background-color: aqua;
+}
+
+.section3{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.attribution{
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+
+}
