@@ -81,10 +81,10 @@ button.duck{
 .picsandsubtext{
     display: flex;
     justify-content: space-evenly;
-    padding: 30px, 40px, 30px, 40px
+    padding: 30px, 40px, 30px, 40px;
     gap: 10px;
     text-align: center;
-    
+    flex-wrap: wrap;
 }
 
 .ddg{
@@ -138,4 +138,51 @@ button.duck{
     font-weight: bolder;
     font-size: 24px;
 
+}
+
+.section4{
+    padding: 50px 200px;
+}
+.calltoaction{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 160px 20px 40px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: large;
+    margin-bottom: 0;
+    color: white;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.blurb{
+    margin-top: 0;
+    color: white;
+}
+
+.thisone{
+    height: 40px;
+    width: 120px;
+    align-self: center;
+    color: white;
+    background-color: #3882f6;
+    box-shadow: none;
+    border: solid 2px white;
+    border-radius: 12px;
+    margin-bottom: 0;
+}
+
+.thatone{
+    height: 40px;
+    align-self: center;
 }
