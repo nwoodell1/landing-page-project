@@ -1,14 +1,16 @@
 *{
     font-family: sans-serif;
     box-sizing: border-box;
+    margin: auto 0 auto 0;
 }
 
 .header{
     display: flex;
     background-color: #1f2937;
     justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .headerlogo{
@@ -49,6 +51,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 10px;
 }
 
 .section1title{
@@ -61,7 +64,7 @@ a{
 .insetinfo{
     color: white;
     margin: 0;
-    margin: 5px, 0, 5px, 0
+    margin: 10px, 0, 10px, 0
 }
 
 button.duck{
@@ -69,6 +72,7 @@ button.duck{
     color: white;
     border: none;
     border-radius: 12px;
+    margin-top: 10px;
 }
 
 .header2{
@@ -76,6 +80,7 @@ button.duck{
    font-size: 36px;
    color: #1f2937;
    font-weight: bolder;
+   margin-top: 40px;
 }
 
 .picsandsubtext{
@@ -116,7 +121,7 @@ button.duck{
 }
 
 .section2{
-    background-color: aqua;
+    background-color: white;
 }
 
 .section3{
@@ -147,7 +152,7 @@ button.duck{
     background-color: #3882f6;
     display: flex;
     justify-content: space-between;
-    padding: 20px 160px 20px 40px;
+    padding: 40px 160px 40px 160px;
     border-radius: 12px;
     flex-wrap: wrap;
 }
@@ -185,4 +190,11 @@ button.duck{
 .thatone{
     height: 40px;
     align-self: center;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    background-color: #1f2937;
+    padding: 40px 0 40px 0;
 }
